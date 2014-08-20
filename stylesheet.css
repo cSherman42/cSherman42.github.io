@@ -1,9 +1,9 @@
 h1 {
-font-family : building, axis, prozo, langdon, Actual, simplifica, Verdana;
+font-family : Futura, "Trebuchet MS", sans-serif;
 font-size : 70px;
 font-color : inherit, black;
 text-align : center;
-color : white;
+color : black;
 }
 #background {
 border-radius : 5px;
@@ -19,7 +19,7 @@ padding : 0px;
 
 
 body {
-background-color : black;
+background-color : #6B8FB2;
 }
 .swag {
 font-family : verdana;
