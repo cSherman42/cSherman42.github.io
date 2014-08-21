@@ -1,35 +1,41 @@
 h1 {
-font-family : Futura, "Trebuchet MS", sans-serif;
+font-family : "Josefin San", sans-serif;
 font-size : 70px;
 font-color : inherit, black;
 text-align : center;
 color : black;
-}
-#background {
-border-radius : 5px;
-border : 2px solid black;
-background-color : #6B8FB2;
-width : 100%;
-margin : 0px;
-left : 0px;
-top : 0px;
-max-width : none;
-padding : 0px;
-}
+position : relative;
+top : 100px;
 
+}
 
 body {
-background-color : #6B8FB2;
+background-color : #E2F5FF;
 }
-.swag {
-font-family : "lucida console";
-color : black;
+
+nav {
+width : 100%;
+position : fixed;
+background-color : #A9AFAF;
+top : 0px;
+margin : 0px;
+left : 0px;
+}
+
+nav a {
+font-weight : bold;
+color : white;
 text-decoration : none;
-font-size : 40px;
+font-size : 25px;
+font-family : "Helvetica Neue";
+margin : 0px 8px 0px 8px;
+padding : 10px;
+display : inline-block;
 
 }
-.swag:hover {
-	color: #FF6600;
-	font-weight : bold;
-	text-decoration: none;
+#logo {
+font-family : Audimat, sans-serif;
+margin : 0px 8px 0px 0px;
+background-color : #7B8884;
+color : #D3FFC4;
 }
