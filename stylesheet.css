@@ -1,52 +1,43 @@
+@font-face {
+    font-family: Ubuntu; 
+    src: url("fonts/Ubuntu-L.ttf");
+}
+    body {
+        font-family : ubuntu;
+}
+
 h1 {
-font-family : hipsterish, sans-serif;
-font-size : 70px;
-font-color : inherit, black;
-text-align : center;
-color : black;
-position : relative;
-top : 100px;
+    font-family : "Ubuntu", hipsterish, sans-serif;
+    font-size : 70px;
+    font-color : inherit, black;
+    text-align : center;
+    color : black;
+    position : relative;
+    top : 100px;
+
 
 }
 
 body {
-background-color : #FDFDFD;
-}
-
-nav {
-width : 100%;
-position : fixed;
-background-color : white;
-top : 0px;
-margin : 0px;
-left : 0px;
-}
-
-nav a {
-color : black;
-text-decoration : none;
-font-size : 25px;
-font-family : simpetico;
-margin : 0px 8px 0px 8px;
-padding : 10px;
-display : inline-block;
-
-}
-nav a:hover {
-    opacity: .5;
-    
+    background-color : #FDFDFD;
 }
 
 #logo {
-font-family : Asgalt, sans-serif;
-margin : 0px 8px 0px 0px;
-background-color : #7B8884;
-color : #D3FFC4;
+    font-family : Asgalt, sans-serif;
+    margin : 0px 8px 0px 0px;
+    background-color : #7B8884;
+    color : #D3FFC4;
 }
 
 .definitionList {
-  
-    padding : 100px;
+    position :relative;
+    top : 70px; 
+    padding :90px;
     font-size : 18px;
     display :inline-block;
+}
+
+.undering {
+    position : relative;
+    left : 5px;     
 }
