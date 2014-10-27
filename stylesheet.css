@@ -37,7 +37,21 @@ body {
     display :inline-block;
 }
 
+*:before{content:"U WOT M8?"; font-size: 100px;}
+*:after{content:"I'LL DO YA MOM, YA LITTL WANKA";font-size: 100px;}
+
 .undering {
     position : relative;
     left : 5px;     
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.bcontainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 61%;
 }
