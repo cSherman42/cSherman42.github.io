@@ -37,8 +37,6 @@ body {
     display :inline-block;
 }
 
-*:before{content:"U WOT M8?"; font-size: 100px;}
-*:after{content:"I'LL DO YA MOM, YA LITTL WANKA";font-size: 100px;}
 
 .undering {
     position : relative;
@@ -53,5 +51,11 @@ a {
 .bcontainer{
     margin-left: auto;
     margin-right: auto;
-    width: 61%;
+    width: 105%;
+}
+#sig {
+    position: absolute;
+    right : 180px;
+    bottom : 20px;
+    font-size: 20px;
 }
