@@ -1,6 +1,6 @@
 @font-face {
     font-family: Ubuntu; 
-    src: url("https://github.com/cSherman42/cSherman42.github.io/raw/master/Fonts/Ubuntu-L.ttf");
+    src: url("Fonts/Ubuntu-L.ttf");
 }
     body {
         font-family : ubuntu;
