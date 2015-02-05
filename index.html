@@ -1,46 +1,127 @@
-<!DOCTYPE HTML>
-<html>
- <head>
-  <link type = "text/css" rel = "stylesheet" href = "stylesheet.css" />
-  <title> Welcome </title>
-</head>
- <body>
-	
-   <h1>-Welcome-</h1>
-     <div class="bcontainer">
-     <div class = "definitionList">
-         <h2 id = "first"> Skills </h2>
-            <div class = "undering">
-                <p>Java</p>
-                <p>HTML/CSS</p>
-            </div>
-         </div>
-     <div class = "definitionList">
-        <h2> Education</h2>
-            <div class = "undering">
-                <p>Klein Oak Highschool</p>
-                <p>??? College</p>
-            </div>
-    </div>
-     <div class = "definitionList">
-        <h2> Work </h2>
-            <div class = "undering">
-                <p>LinkedIn</p>
-                <a href = "https://github.com/cSherman42"> Github</a>
-            </div>
-     </div>
-     
-     <div class = "definitionList">
-        <h2> Contact</h2>
-            <div class = "undering">
-               <p id = "email"> csherman120@gmail.com </p>
-                <p id = "phone">713-859-5145</p>
-            </div>
-     </div>
-     </div>
-     
-     <p id = "sig">Chris Sherman</p>
-     <p id = "lastEdit"></p>
- </body>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a responsive product landing page.">
 
+    <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
+
+    
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+  
+
+
+    
+
+    
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Chris Sherman</a>
+
+        <ul>
+            <li class="pure-menu-selected"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="https://github.com/cSherman42">GitHub</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">-Welcome-</h1>
+        <p class="splash-subhead">
+            to my personal Website
+        </p>
+        <p>
+            <a href="http://memes.org" class="pure-button pure-button-primary">Learn More</a>
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    
+
+    
+
+    <div class="content">
+        <h2 class="content-head is-center">Coming soon...</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked" action = "handling.php" method = "post" >
+                    Name : <input type="text" name="usrname"> <br>
+                    Password : <input type="password" name="psswrd"> <br>
+                    <input type="submit">
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>....</h4>
+                <p>
+                    ...
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    ...
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        Ryan Wells sucks
+    </div>
+
+</div>
+
+
+
+
+
+
+</body>
 </html>
