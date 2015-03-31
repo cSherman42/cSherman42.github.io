@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
-function gpa() {
+
+function gpa() {    
     
     var boxesChecked = [];
     if (document.getElementById("c1").checked) { boxesChecked[0] = true; }
@@ -31,24 +32,24 @@ function gpa() {
     grades[3] = document.getElementById("t4").value;
     grades[4] = document.getElementById("t5").value;
     grades[5] = document.getElementById("t6").value;
-    grades[6]  = document.getElementById("t7").value;
+    grades[6] = document.getElementById("t7").value;
     var sum = 0;
+    var gradesChecked = 0;
     for(var i=0; i<7;i++){
-        console.log(grades[i]);
-        sum += parseInt(grades[i]);
+        if(boxesChecked[i] && grades[i] > 0) {
+            sum += (grades[i] / 10) -4;
+            gradesChecked++;
+        } else if(!boxesChecked[i] && grades[i] > 0) {
+            sum += (grades[i] / 10) - 5;
+            gradesChecked++;
+        } else {
+            continue
+        }
     }
-    console.log(sum);
-    sum /= 7;
-    sum = Math.round(sum);
-    document.getElementById("d").value = "GPA: " + getGpa(sum);
+    sum /= gradesChecked;
+    
+    sum = (sum * 100) / 100;
+    document.getElementById("d").value = "GPA: " + Number(sum).toFixed(3);
        
 }
 
-function getGpa(x) {
-    console.log("allah");
-    var temp = 3;
-    for(var i = 70; i < x; i++){
-        temp+= .1;
-    }
-    return temp;
-}
