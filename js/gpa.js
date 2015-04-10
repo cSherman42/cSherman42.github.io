@@ -43,7 +43,7 @@ function gpa() {
             sum += (grades[i] / 10) - 5;
             gradesChecked++;
         } else {
-            continue
+            continue;
         }
     }
     sum /= gradesChecked;
