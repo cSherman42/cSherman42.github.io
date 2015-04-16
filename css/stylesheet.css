@@ -1,10 +1,30 @@
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
 #welcome {
-    
+   
     font-size: 60px;
     text-align: center;
     font-family: calibri;
     padding: 50px;
     transform: translateY(30%);
+    color : white;
 }
 #wlcbtn {
     font-family: calibri;
@@ -20,6 +40,7 @@
     transform: translateY(190%);
     
     font-family: verdana;
+    color : white;
 }
 #download {
     position: absolute;
@@ -67,7 +88,7 @@
     padding: 20px;
     
     text-align : left;
-    background-color: grey;
+   
     
     
 }
