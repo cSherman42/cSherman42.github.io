@@ -42,42 +42,57 @@
     font-family: verdana;
     color : white;
 }
-#download {
-    position: absolute;
-    color : red;
-    font-family : calibri;
-    font-size : 40px;
-    text-align: center;
-    top : 50%;
-    left : 40%;
+.button {
+    transform: translateY(800%);
     
+    display: block;
+    width : 230px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 41px;
+    border: 0px solid #628d94;
+    border-radius: 12px;
+    background: #a1e7f4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a1e7f4), to(#628d94));
+    background: -moz-linear-gradient(top, #a1e7f4, #628d94);
+    background: linear-gradient(to bottom, #a1e7f4, #628d94);
+    text-shadow: #46656a 1px 3px 4px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
 }
-.btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.button:hover,
+.button:focus {
+    border: 0px solid #8cc9d4;
+    background: #c1ffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c1ffff), to(#76a9b2));
+    background: -moz-linear-gradient(top, #c1ffff, #76a9b2);
+    background: linear-gradient(to bottom, #c1ffff, #76a9b2);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #628d94;
+    background: -webkit-gradient(linear, left top, left bottom, from(#628d94), to(#628d94));
+    background: -moz-linear-gradient(top, #628d94, #628d94);
+    background: linear-gradient(to bottom, #628d94, #628d94);
+}
+.button:after{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 -4px -6px 4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABxklEQVRIia3VMWtUQRAH8J8PkeMIQUTCfQCLw0YLSRWCFoql2AhWwcJCLWw0FoJVtAjiB7BKIUGxkxRXHBIsJI1dQDDBQhGES1QIhzbBYufJ87j33uVyf1h23pvZ/8zOzuwyOlp4iHf4gm2s4QYaB+AZigX8wFvcxHlcxhN8xyecG5f8VpBfLdGfwEv8wmwd2SV0sYlnmI+FczXrMryQdjJVZjQXkd6RUrCGP7hfF1VgGp+lHQ/FKh4Uvo/iesyj4i7Wy5QdXKkhaMYow2kpC/+QxTyNY7hY4+BRjDLsSmfwNDhlIXTxEYs1DrJCUMPwE4+lTHQxlQXpN9zGXo2DOvyWdngmuBbzg7yG/UOSF7EnBb6aYQZbEyTPsYVWJh1MbQeOgbPoZXglnfrxCZI3sITXWQikBpmXyqxZGFU3ZWPAtok23kjVuZSn6AI+hGJHapZ8rFQ4eD5gu4MNfA3O3SMDC5rS7Vis9T56IS/HfC/mk/7v7P0IuJ//GLxn+kXlCOjVGVR15az0itWhpaIKqxy08F56zYbZZaHbkHppLLSlO6WDU9IZLIfcCV17XPIceaTb0ku3GfKC6gwcGDNSya44REomjr9IA1x5RIQNqwAAAABJRU5ErkJggg==") no-repeat left center transparent;
+    background-size: 100% 100%;
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  
-}
+
 #nav {
     position: absolute;
     top : 0px;
@@ -86,7 +101,6 @@
     list-style-type: none;
     margin: 0;
     padding: 20px;
-    
     text-align : left;
    
     
@@ -108,7 +122,8 @@ a{
     
 }
 a:hover {
-    color : #CCFFFF;
+    color : #6699FF;
+	border-radius : 10%;
 }
 #dates {
     position: absolute;
