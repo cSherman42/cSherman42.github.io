@@ -22,8 +22,8 @@
     font-size: 60px;
     text-align: center;
     font-family: calibri;
-    padding: 50px;
-    transform: translateY(30%);
+    padding: 20px;
+    transform: translateY(10%);
     color : white;
 }
 #wlcbtn {
@@ -37,11 +37,13 @@
 #homeScreen{
     position: relative;
     text-align: center;
-    transform: translateY(190%);
-    
+    width : 40%;
+    margin : auto;
+    transform: translateY(10%);
     font-family: verdana;
     color : white;
 }
+
 .button {
     transform: translateY(800%);
     
@@ -91,26 +93,24 @@
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABxklEQVRIia3VMWtUQRAH8J8PkeMIQUTCfQCLw0YLSRWCFoql2AhWwcJCLWw0FoJVtAjiB7BKIUGxkxRXHBIsJI1dQDDBQhGES1QIhzbBYufJ87j33uVyf1h23pvZ/8zOzuwyOlp4iHf4gm2s4QYaB+AZigX8wFvcxHlcxhN8xyecG5f8VpBfLdGfwEv8wmwd2SV0sYlnmI+FczXrMryQdjJVZjQXkd6RUrCGP7hfF1VgGp+lHQ/FKh4Uvo/iesyj4i7Wy5QdXKkhaMYow2kpC/+QxTyNY7hY4+BRjDLsSmfwNDhlIXTxEYs1DrJCUMPwE4+lTHQxlQXpN9zGXo2DOvyWdngmuBbzg7yG/UOSF7EnBb6aYQZbEyTPsYVWJh1MbQeOgbPoZXglnfrxCZI3sITXWQikBpmXyqxZGFU3ZWPAtok23kjVuZSn6AI+hGJHapZ8rFQ4eD5gu4MNfA3O3SMDC5rS7Vis9T56IS/HfC/mk/7v7P0IuJ//GLxn+kXlCOjVGVR15az0itWhpaIKqxy08F56zYbZZaHbkHppLLSlO6WDU9IZLIfcCV17XPIceaTb0ku3GfKC6gwcGDNSya44REomjr9IA1x5RIQNqwAAAABJRU5ErkJggg==") no-repeat left center transparent;
     background-size: 100% 100%;
 }
-
-
-#nav {
-    position: absolute;
-    top : 0px;
-    right : -2em;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    text-align : left;
-   
-    
-    
+#downloadButton {
+	transform : translateY(-300%);
 }
+#nav {
+	font-size : 18px;
+}
+
 li {
     display: inline;
-    padding-right: 80px;
-    
-    
+	
+    padding-right: 30px;  
+}
+h1{ 
+position : relative;
+color : white;
+text-align : center;
+font-family: Segoe WP", "Segoe UI Light", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+transform : translateY(350%);
 }
 
 a{
@@ -121,7 +121,7 @@ a{
     color: #FFF;
     
 }
-a:hover {
+a href:hover {
     color : #6699FF;
 	border-radius : 10%;
 }
